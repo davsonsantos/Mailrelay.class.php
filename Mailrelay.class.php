@@ -6,7 +6,7 @@
 
 class Mailrelay{
 
-	var $URL = 'http://davtech1.ip-zone.com/ccm/admin/api/version/2/&type=json';
+	var $URL = 'http://dominiodaplataforma.com/ccm/admin/api/version/2/&type=json';
 	var $Authentication; //Codigo de Autenticação
 	var $Result; //Retorna as informações das classes
 	var $postData; // array com os dados de envio de email
@@ -241,8 +241,8 @@ class Mailrelay{
  
 		$postData = array(
 		    'function' => 'doAuthentication',
-		    'username' => 'davtech1',
-		    'password' => '487a8b08',
+		    'username' => 'username',
+		    'password' => 'password',
 		);
  
 		curl_setopt($curl, CURLOPT_POST, true);
